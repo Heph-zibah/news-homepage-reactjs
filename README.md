@@ -12,9 +12,7 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,15 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./src/assets/Design/News%20Homepage.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/responsive-news-homepage-reactjs-sass-and-grid-iNLWcsWWMr)
+- Live Site URL: [Live site URL](https://news-homepage-reactjs.vercel.app/)
 ### Built with
 
 - Semantic HTML5 markup
@@ -44,35 +39,25 @@ Users should be able to:
 - CSS Grid
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
+- [SASS](hhttps://sass-lang.com/guide) - For styles
 
 ### What I learned
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<img src={window.innerWidth < 800 ? mobile : img} alt={altText} />
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+$text-color-white:hsl(36, 100%, 99%);
+$text-color-hover:hsl(5, 85%, 63%);;
+$font-family: 'Inter', sans-serif;
 ```
 
 ### Continued development
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- Grid layout
+- React Logicc
 
 ## Author
 
 - Website - [Oluwatosin A Daramola](https://medium.com/@oluwatosinhephzibah)
 - Frontend Mentor - [@Heph-zibah](https://www.frontendmentor.io/profile/Heph-zibah)
 - Twitter - [@undaunted_pen](https://twitter.com/undaunted_pen)
-
-## Acknowledgments
