@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import logo from '../../assets/images/logo.svg'
-import {HiMenu} from 'react-icons/hi'
 import { navLinks } from '../Data'
 import menuClose from '../../assets/images/icon-menu-close.svg'
+import menuOpen from '../../assets/images/icon-menu.svg'
 
 const Navbar = () => {
     const [openNav, setOpenNav] = useState(false)
@@ -21,7 +21,7 @@ const Navbar = () => {
                 </ul>
             </nav>
             <div className="mobile__menu" onClick={() => setOpenNav(!openNav)}>
-                <HiMenu/>
+                <img src={menuOpen} alt="menu open icon" />
             </div>
         </header>
        {openNav &&  <div className="mobile__nav">
