@@ -3,6 +3,7 @@
 @import './Styles/mixins';
 @import './components/Navbar/navbar';
 @import './components/Popular/popular';
+@import './components//Hero/hero';
 * {
     margin: 0;
     padding: 0;
@@ -20,7 +21,17 @@ body {
 }
 .container {
     padding: 20px;
+    display: grid;
+    grid-template-areas:
+    'nav nav nav nav nav nav'
+    'header header header aside aside'
+    'main main main main main main'
 }
+
+.item1 { grid-area: nav }
+.item2 { grid-area: header; }
+.item3 { grid-area:aside; }
+.item4 { grid-area:main; }
 
 footer {
     margin-top: 50px;

@@ -1,7 +1,7 @@
 import React from 'react'
 import {newNews} from '../Data'
 
-const Aside = () => {
+const Sidebar = () => {
   return (
     <>
         <aside>
@@ -17,4 +17,4 @@ const Aside = () => {
   )
 }
 
-export default Aside
+export default Sidebar
