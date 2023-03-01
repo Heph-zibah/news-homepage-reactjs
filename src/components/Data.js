@@ -29,6 +29,7 @@ export const navLinks = [
 export const trending = [
     {
         id:1,
+        img: require('../assets/images/image-web-3-desktop.jpg'),
         topic:'The Bright Future of Web 3.0?',
         text:'We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?'
     }
@@ -55,21 +56,24 @@ export const newNews = [
 export const popular = [
     {
         id: 1,
-        img: '../assets/images/image-retro-pcs.jpg',
+        img: require('../assets/images/image-retro-pcs.jpg'),
+        altText: 'gaming PC',
         num: '01',
         header: 'Reviving Retro PCs',
         text:'What happens when old PCs are given modern upgrades? '
     },
     {
         id: 2,
-        img: '../assets/images/image-top-laptops.jpg',
+        img: require('../assets/images/image-top-laptops.jpg'),
+        altText:'tablet',
         num: '02',
         header: 'Top 10 Laptops of 2022',
         text:'Our best picks for various needs and budgets.'
     },
     {
         id: 3,
-        img: '../assets/images/image-gaming-growth.jpg',
+        img: require('../assets/images/image-gaming-growth.jpg'),
+        altText: 'game pad',
         num: '03',
         header: 'The Growth of Gaming',
         text:'How the pandemic has sparked fresh opportunities.'
