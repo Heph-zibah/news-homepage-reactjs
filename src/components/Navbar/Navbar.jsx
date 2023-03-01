@@ -11,7 +11,7 @@ const Navbar = () => {
                 <img src={logo} alt="company logo" />
             </div>
             <nav>
-                <ul>
+                <ul className='nav__links'>
                     {navLinks.map((navlink) => {
                         const {id, url, text} = navlink
                         return <li key={id}>{text}</li>
