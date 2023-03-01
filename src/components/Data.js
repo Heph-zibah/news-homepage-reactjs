@@ -26,7 +26,33 @@ export const navLinks = [
     },
 ]
 
-export const categories = [
+export const trending = [
+    {
+        id:1,
+        topic:'The Bright Future of Web 3.0?',
+        text:'We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?'
+    }
+]
+
+export const newNews = [
+    {
+        id:1,
+        header:'Hydrogen VS Electric Cars',
+        text: 'Will hydrogen-fueled cars ever catch up to EVs?'
+    },
+    {
+        id:2,
+        header:'The Downsides of AI Artistry',
+        text:'What are the possible adverse effects of on-demand AI image generation?'
+    },
+    {
+        id:3,
+        header:'Is VC Funding Drying Up?',
+        text:'Private funding by VC firms is down 50% YOY. We take a look at what that means.',
+    }
+]
+
+export const popular = [
     {
         id: 1,
         img: '../assets/images/image-retro-pcs.jpg',
