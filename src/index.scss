@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
 @import './Styles/variables';
 @import './Styles/mixins';
-@import './Styles/navbar';
+@import './components/Navbar/navbar';
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +16,7 @@ a {
 }
 
 footer {
+    margin-top: 50px;
     text-align: center;
     color: $text-color-darkgrey;
     a{
