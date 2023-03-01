@@ -8,11 +8,13 @@ function App() {
   return (
     <>
       <div className="container">
-        <Navbar className='item1'/>
-        <Hero className='item2'/>
-        <Sidebar className='item3'/>
-        <Popular className='item4'/>
-        <footer className="item5">
+        <Navbar/>
+        <main>
+          <Hero/>
+          <Sidebar/>
+        </main>
+        <Popular/>
+        <footer >
           <p>
             Challenge by <a href="#">
             Challenge by Frontend Mentor.</a>. 
