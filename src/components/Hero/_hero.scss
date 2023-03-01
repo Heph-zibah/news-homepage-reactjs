@@ -1,3 +1,7 @@
+.hero__container {
+    margin-bottom: 40px;
+}
+
 .hero__wrapper {
     img{
         width: 100%;
@@ -5,8 +9,7 @@
     .hero__info {
         display: flex;
         flex-direction: column;
-        gap: 30px;
-        // padding-right: 20px;
+        gap: 20px;
         h1 {
             font-size: 35px;
             text-align: start;
@@ -14,17 +17,30 @@
         }
         p {
             color: $text-color-darkgrey;
+            margin-bottom: 25px;
+        }
+        button {
+            background-color: $background-color-btn;
+            color: $text-color-white;
+            border: 0;
+            outline: 0;
+            letter-spacing: 3px;
+            padding: 10px;
+            text-transform: uppercase;
+            transition: .5s ease-in;
+        }
+        button:hover {
+            background-color: $background-color-btnHover;
         }
     }
     
 }
 @media screen and (min-width:800px) {
     .hero__container {
-        flex: 1;
+        margin-bottom: 0;
     }
     .hero__wrapper {
         .hero__info {
-            
             gap: 10px;
             h1 {
                 font-size: 30px;
@@ -48,12 +64,13 @@
     .hero__wrapper {
         .hero__info {
             flex-direction: row;
-            gap: 50px;
+            gap: 40px;
+            margin-top: 30px;
             h1 {
-                font-size: 40px;
+                font-size: 30px;
             }
             div {
-                padding: 0 55px;
+                padding: 0 40px;
             }
             p {
                 color: $text-color-darkgrey;
