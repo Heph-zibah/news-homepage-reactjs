@@ -2,4 +2,63 @@
     img{
         width: 100%;
     }
+    .hero__info {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        // padding-right: 20px;
+        h1 {
+            font-size: 35px;
+            text-align: start;
+            padding-right: 50px;
+        }
+        p {
+            color: $text-color-darkgrey;
+        }
+    }
+    
+}
+@media screen and (min-width:800px) {
+    .hero__container {
+        flex: 1;
+    }
+    .hero__wrapper {
+        .hero__info {
+            
+            gap: 10px;
+            h1 {
+                font-size: 30px;
+                padding-right: 0;
+            }
+            div {
+                padding: 0;
+            }
+            p {
+                color: $text-color-darkgrey;
+            }
+        }
+        
+    }
+}
+
+@media screen and (min-width:1020px) {
+    .hero__container {
+        flex: 3;
+    }
+    .hero__wrapper {
+        .hero__info {
+            flex-direction: row;
+            gap: 50px;
+            h1 {
+                font-size: 40px;
+            }
+            div {
+                padding: 0 55px;
+            }
+            p {
+                color: $text-color-darkgrey;
+            }
+        }
+        
+    }
 }
