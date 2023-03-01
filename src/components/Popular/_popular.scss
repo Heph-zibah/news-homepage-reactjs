@@ -1,5 +1,6 @@
 .popular__container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
@@ -34,9 +35,4 @@
 .popular__wrapper:hover {
     scale: 1.1;
     background-color: $text-color-white;
-}
-@media screen and (min-width:800px) {
-    .popular__container {
-        flex-direction: row;
-    }
 }
