@@ -1,11 +1,13 @@
 import React from "react";
 import Navbar from "./components/Navbar/Navbar";
+import Popular from "./components/Popular/Popular";
 
 function App() {
   return (
     <>
       <div className="container">
         <Navbar/>
+        <Popular/>
         <footer>
           <p>
             Challenge by <a href="#">
