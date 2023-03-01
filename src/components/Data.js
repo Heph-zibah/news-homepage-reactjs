@@ -30,6 +30,7 @@ export const trending = [
     {
         id:1,
         img: require('../assets/images/image-web-3-desktop.jpg'),
+        altext: 'web',
         topic:'The Bright Future of Web 3.0?',
         text:'We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?'
     }
