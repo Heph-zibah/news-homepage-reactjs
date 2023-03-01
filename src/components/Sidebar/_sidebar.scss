@@ -1,5 +1,5 @@
 .sidebar__container {
-    flex: 1;
+    // flex: 1;
     background-color: $background-color-sidebar;
     padding: 20px 40px;
     h1 {
@@ -12,6 +12,10 @@
         h4 {
             color: $text-color-white;
             margin-bottom: 10px;
+        }
+        h4:hover {
+            color: $text-color-hover;
+            transition: .5s;
         }
         p {
             color: $text-color-darkgrey;
