@@ -4,6 +4,7 @@
 @import './components/Navbar/navbar';
 @import './components/Popular/popular';
 @import './components//Hero/hero';
+@import './components/Sidebar/sidebar';
 * {
     margin: 0;
     padding: 0;
@@ -19,19 +20,15 @@ body {
     font-size: 15px;
     background-color: $text-color-white;
 }
+
+
 .container {
     padding: 20px;
     display: grid;
-    grid-template-areas:
-    'nav nav nav nav nav nav'
-    'header header header aside aside'
-    'main main main main main main'
+    grid-template-columns: 1fr;
 }
 
-.item1 { grid-area: nav }
-.item2 { grid-area: header; }
-.item3 { grid-area:aside; }
-.item4 { grid-area:main; }
+
 
 footer {
     margin-top: 50px;
@@ -47,8 +44,31 @@ footer {
     }
 }
 
+@media screen and (min-width:800px) {
+    .container {
+        padding: 40px 60px;
+        
+        grid-template-areas: 
+        'nav nav nav nav'
+        'header header sidebar'
+        ;
+        main {
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
 @media screen and (min-width:1020px) {
     .container {
         padding: 40px 120px;
+        
+        grid-template-areas: 
+        'nav nav nav nav'
+        'header header sidebar'
+        ;
+        main {
+            display: flex;
+            gap: 20px;
+        }
     }
 }
