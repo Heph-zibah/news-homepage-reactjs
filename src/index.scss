@@ -8,8 +8,24 @@
     box-sizing: border-box;
     font-family: $font-family;
 }
+a {
+    text-decoration: none;
+}
 .container {
     padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: $text-color-darkgrey;
+    a{
+        color: $text-color-blue;
+        transition: .5s;
+    }
+    a:hover {
+        color: $text-color-hover;
+        text-decoration: underline;
+    }
 }
 
 @media screen and (min-width:1020px) {
