@@ -1,1 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+@import './Styles/variables';
+@import './Styles/mixins';
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    ul {
+        display: flex;
+        gap: 20px;
+    }
+
+    li {
+    list-style: none;
+    text-transform: capitalize;
+    
+    }
+    a {
+        text-decoration: none;
+    }
+}
