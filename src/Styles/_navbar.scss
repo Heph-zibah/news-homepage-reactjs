@@ -25,13 +25,13 @@ nav {
         top: 0;
         right:0;
         background-color: white;
-        width: 80%;
+        width: 70%;
         height: 100vh;
         padding: 30px;
     }
     .menu__close {
         width: 15%; 
-align-self: flex-end;
+        align-self: flex-end;
     }
     nav {
         display: flex;
@@ -50,20 +50,17 @@ align-self: flex-end;
     
     }
     a {
-        text-decoration: none;
         color: $text-color-blue;
         font-size: 20px;
+        transition: .5s ease-in;
     }
     a:hover {
         color: $text-color-hover;
     }
 }
 
-.mobile__menu {
-    font-size: 30px;
-}
 
-@media screen and (min-width:1020px) {
+@media screen and (min-width:800px) {
     .container {
         padding: 40px 120px;
     }
