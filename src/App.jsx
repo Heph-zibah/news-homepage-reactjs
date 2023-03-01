@@ -11,7 +11,7 @@ function App() {
         <footer>
           <p>
             Challenge by <a href="#">
-            Challenge by Frontend Mentor. Coded by Your Name Here.</a>. 
+            Challenge by Frontend Mentor.</a>. 
             Coded by <a href="#">Oluwatosin Abigail Daramola</a>.
           </p>
         </footer>
